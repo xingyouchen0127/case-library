@@ -1,7 +1,20 @@
 {
   "version": "case_library_v1.0",
   "updated_at": "2026-05-15",
-  "total": 0,
-  "cases": [cases/ref_carseat_TSB_safety_001/ref_carseat_TSB_safety_001.jpg
-cases/ref_carseat_TSB_safety_001/ref_carseat_TSB_safety_001.json]
+  "total": 1,
+  "cases": [
+    {
+      "case_id": "ref_carseat_TSB_safety_001",
+      "image_url": "https://cdn.jsdelivr.net/gh/xingyouchen0127/case-library@main/cases/ref_carseat_TSB_safety_001/ref_carseat_TSB_safety_001.jpg",
+      "json_url": "https://cdn.jsdelivr.net/gh/xingyouchen0127/case-library@main/cases/ref_carseat_TSB_safety_001/ref_carseat_TSB_safety_001.json",
+      "category": "儿童安全座椅",
+      "primary_barrier": "TSB-安全",
+      "dimension_A": "产品与人",
+      "dimension_B": "使用过程",
+      "skeleton_id": "T-TLB",
+      "operating_stage": "活动爆发期",
+      "has_people": true,
+      "image_ratio": "square"
+    }
+  ]
 }
