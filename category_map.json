@@ -1,0 +1,31 @@
+{
+  "version": "v1.0",
+  "updated_at": "2026-05-16",
+  "description": "AI识别品类文本到标准品类码的映射表，查询时先在aliases做匹配，命中后转为code再检索案例库",
+  "categories": [
+    {
+      "code": "CHILD_carseat",
+      "label_zh": "儿童安全座椅",
+      "jd_category_id": "1316",
+      "aliases": [
+        "儿童安全座椅",
+        "汽车安全座椅",
+        "宝宝安全座椅",
+        "婴儿安全座椅",
+        "车载安全座椅",
+        "安全座椅",
+        "儿童座椅",
+        "宝宝座椅",
+        "婴儿座椅",
+        "车用儿童座椅",
+        "child car seat",
+        "car safety seat",
+        "baby car seat",
+        "infant car seat",
+        "toddler car seat"
+      ]
+    }
+  ]
+}
+
+
