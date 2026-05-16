@@ -1,10 +1,10 @@
 {
   "meta": {
     "version": "case_library_v1.0",
-    "schema_ref": "产品呈现方式_v4.1 + 文案策略执行规则_v1.3 + 布局骨架空间枚举库_v1.1",
+    "schema_ref": "产品呈现方式_v4.1 + 文案策略执行规则_v1.3 + 布局骨架空间枚举库_v1.1 + 经营阶段参数_v1.2",
     "created_at": "2026-05-15",
-    "case_id": "ref_CARSEAT_TSB-安全_001",
-    "image_file": "ref_CARSEAT_TSB-安全_001.jpg"
+    "case_id": "ref_carseat_TSB_safety_001",
+    "image_file": "ref_carseat_TSB_safety_001.jpg"
   },
   "image_physical": {
     "image_ratio": "square",
@@ -13,13 +13,14 @@
     "text_area_ratio": ">30%"
   },
   "strategy_tags": {
-    "category": "儿童安全座椅",
+    "category_code": "CHILD_carseat",
+    "category_label": "儿童安全座椅",
     "primary_barrier": "TSB-安全",
     "dimension_A": "产品与人",
     "dimension_B": "使用过程",
     "auxiliary_view": ["参数数字气泡", "静态局部标注"],
     "has_people": true,
-    "operating_stage": "活动爆发期",
+    "operating_stage": "campaign",
     "tone_code": "LIFESTYLE",
     "skeleton_id": "T-TLB"
   }
