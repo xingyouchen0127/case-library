@@ -61,4 +61,15 @@ AI 识别图片输出的品类文本不标准，查询前需先通过 `aliases` 
 新增品类时在 `categories` 数组追加对象，`aliases` 收录所有 AI 可能输出的近似描述。
 
 ## CDN 访问地址格式
+[## CDN 访问地址格式
+](https://cdn.jsdelivr.net/gh/xingyouchen0127/case-library@main/{文件路径}
+
+示例：
+- index.json：`https://cdn.jsdelivr.net/gh/xingyouchen0127/case-library@main/index.json`
+- 案例图片：`https://cdn.jsdelivr.net/gh/xingyouchen0127/case-library@main/ref_carseat_safety_001/ref_carseat_TSB_safety_001.jpg`
+- 案例描述：`https://cdn.jsdelivr.net/gh/xingyouchen0127/case-library@main/ref_carseat_safety_001/ref_carseat_TSB_safety_001.json`
+
+更新文件后如遇缓存未刷新，访问以下地址主动清除：
+`https://purge.jsdelivr.net/gh/xingyouchen0127/case-library@main/{文件路径}`
+)
 
